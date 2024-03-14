@@ -2,17 +2,22 @@
 using Infrastructure.AssetManagement;
 using UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Infrastructure.Factory
 {
     public class LevelFactory : ILevelFactory
     {
         private readonly IAssetProvider assetProvider;
+        private readonly ICameraPathFollower cameraPathFollower;
         private FlexibleColorPicker colorPicker;
+        private CarPartsContainer carPartsContainer;
+        private Button backButton;
 
-        public LevelFactory(IAssetProvider assetProvider)
+        public LevelFactory(IAssetProvider assetProvider, ICameraPathFollower cameraPathFollower)
         {
             this.assetProvider = assetProvider;
+            this.cameraPathFollower = cameraPathFollower;
         }
 
         public GameObject CreateHUD(List<CarPartData> carPartsData)
@@ -21,6 +26,10 @@ namespace Infrastructure.Factory
             var container = hud.GetComponent<HUDContainer>();
 
             colorPicker = container.ColorPicker;
+            backButton = container.BackButton;
+            carPartsContainer = container.CarPartsContainer;
+            
+            backButton.onClick.AddListener(HideColorPicker);
             var carPartElements = CreateCarPartElements(carPartsData);
             container.CarPartsContainer.Init(carPartElements);
             return hud;
@@ -48,19 +57,28 @@ namespace Infrastructure.Factory
 
         private void ShowColorPicker(CarPartData partData)
         {
-            var go = colorPicker.gameObject;
-            if (go.activeSelf)
-            {
-                colorPicker.onColorChange.RemoveAllListeners();
-                go.SetActive(false);
-            }
+            carPartsContainer.gameObject.SetActive(false);
+            backButton.gameObject.SetActive(true);
             
-            go.SetActive(true);
+            colorPicker.gameObject.SetActive(true);
             colorPicker.color = partData.material.color;
             colorPicker.onColorChange.AddListener(newColor => ChangeColor(partData, newColor));
+
+            cameraPathFollower.FollowToPoint(partData.viewPoint);
+        }
+        
+        private void HideColorPicker()
+        {
+            colorPicker.gameObject.SetActive(false);
+            backButton.gameObject.SetActive(false);
+            carPartsContainer.gameObject.SetActive(true);
+            
+            colorPicker.onColorChange.RemoveAllListeners();
+            
+            cameraPathFollower.FollowToStart();
         }
 
-        private void ChangeColor(CarPartData partData, Color newColor) => 
+        private void ChangeColor(CarPartData partData, Color newColor) =>
             partData.material.color = newColor;
 
         private CarPartElement CreateElement(CarPartData partData)

@@ -20,7 +20,7 @@ namespace Infrastructure.AssetManagement
             if (instance is GameObject gameObject)
             {
                 if (parent != null) 
-                    gameObject.transform.SetParent(parent);
+                    gameObject.transform.SetParent(parent, false);
             }
 
             return instance;
