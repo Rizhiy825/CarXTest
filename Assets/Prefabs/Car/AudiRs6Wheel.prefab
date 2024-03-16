@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &297167896907509557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 215419727529243218}
+  m_Layer: 0
+  m_Name: AudiRs6Wheel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &215419727529243218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297167896907509557}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3249218835956182119}
+  - {fileID: 3318341776119922265}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2992544366004410802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 215419727529243218}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.201
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.285
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4b0a05cbf9f65144833a375ba845c41,
+        type: 3}
+      propertyPath: m_Name
+      value: Tire F1_cutted
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 1318074932223199855, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: 6919465188504861842, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: 2627652562728017637, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: -7029948723529949830, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: -2081483446075361163, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: 3732995008207898382, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: 8334931800291460284, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: -4873798384934455050, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: 2318317739347955644, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: -2989979879543310536, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: -5079096251416471312, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    - {fileID: -8743489663332117265, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4b0a05cbf9f65144833a375ba845c41, type: 3}
+--- !u!4 &3318341776119922265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e4b0a05cbf9f65144833a375ba845c41,
+    type: 3}
+  m_PrefabInstance: {fileID: 2992544366004410802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3070665692141341580
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 215419727529243218}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3acd824381dad454ba993faaa4128175,
+        type: 3}
+      propertyPath: m_Name
+      value: Audi_RS6_Avant_C7_rim
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3acd824381dad454ba993faaa4128175, type: 3}
+--- !u!4 &3249218835956182119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3acd824381dad454ba993faaa4128175,
+    type: 3}
+  m_PrefabInstance: {fileID: 3070665692141341580}
+  m_PrefabAsset: {fileID: 0}
