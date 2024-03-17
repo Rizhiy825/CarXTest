@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Infrastructure.Factory
+namespace Infrastructure.Services
 {
     public interface ILevelFactory
     {

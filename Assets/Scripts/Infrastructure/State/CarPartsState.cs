@@ -1,6 +1,7 @@
 using System.Collections.Generic;
-using Infrastructure.Factory;
+using Infrastructure.Services;
 using UI;
+using UnityEngine.UI;
 
 namespace Infrastructure.State
 {
@@ -10,6 +11,7 @@ namespace Infrastructure.State
         private readonly IUIFactory uiFactory;
         private List<CarPartElement> carParts;
         private CarPartsContainer carPartsContainer;
+        private Button changeLightButton;
 
         public CarPartsState(UIStateMachine stateMachine, IUIFactory uiFactory)
         {
@@ -24,6 +26,7 @@ namespace Infrastructure.State
             
             carParts = carPartsContainer.Elements;
             
+            InitChangeLightButton(hudContainer);
             SubscribeCarParts();
         }
 
@@ -35,6 +38,13 @@ namespace Infrastructure.State
             }
             
             carPartsContainer.gameObject.SetActive(false);
+        }
+
+        private void InitChangeLightButton(HUDContainer hudContainer)
+        {
+            changeLightButton = hudContainer.ChangeLightButton;
+            changeLightButton.gameObject.SetActive(true);
+            changeLightButton.onClick.AddListener(() => stateMachine.Enter<LightSettingsState>());
         }
 
         private void SubscribeCarParts()

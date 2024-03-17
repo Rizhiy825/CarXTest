@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 2231662575271980721}
   serializedVersion: 2
   m_LocalRotation: {x: -0.020031817, y: -0.87619394, z: 0.03655787, w: -0.48015264}
-  m_LocalPosition: {x: -1.7947607, y: 0.6931373, z: 2.7243042}
+  m_LocalPosition: {x: -1.813, y: 0.693, z: 2.695}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97,6 +97,7 @@ Transform:
   - {fileID: 5054241476486622759}
   - {fileID: 4502383122592623096}
   - {fileID: 6493780930773828727}
+  - {fileID: 6845784714400590544}
   - {fileID: 8958972045044001975}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -124,11 +125,15 @@ MonoBehaviour:
   - partName: Back lights
     viewPoint: {fileID: 4502383122592623096}
     material: {fileID: 2100000, guid: d82f998f136d78b43bd1ab7baf516943, type: 2}
-    canBeMetallic: 1
+    canBeMetallic: 0
   - partName: Wheels
     viewPoint: {fileID: 6493780930773828727}
     material: {fileID: 2100000, guid: 763d2721b8844b741b5d38ae3f0bbd94, type: 2}
     canBeMetallic: 1
+  - partName: Front lights
+    viewPoint: {fileID: 6845784714400590544}
+    material: {fileID: 2100000, guid: e1fea3b7f1c034c43b2b941bccd81662, type: 2}
+    canBeMetallic: 0
 --- !u!1 &2702915889028766153
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +196,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1078249648682815326}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6019683973525293460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6845784714400590544}
+  m_Layer: 0
+  m_Name: FrontLightsViewPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6845784714400590544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6019683973525293460}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.9848078, z: 0.17364816, w: 0}
+  m_LocalPosition: {x: 0.045965254, y: 1.25, z: 3.4760132}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1078249648682815326}
+  m_LocalEulerAnglesHint: {x: 20, y: -180, z: 0}
 --- !u!1 &8589533645449608281
 GameObject:
   m_ObjectHideFlags: 0

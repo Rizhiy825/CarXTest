@@ -1,4 +1,4 @@
-﻿using Infrastructure.Factory;
+﻿using Infrastructure.Services;
 using Infrastructure.State;
 using UnityEngine;
 using Zenject;
@@ -22,6 +22,8 @@ namespace Infrastructure
         
         private void Start()
         {
+            Screen.SetResolution(1920, 1080, FullScreenMode.FullScreenWindow);
+            
             levelFactory.CreateCar(carStartPosition);
             stateMachine.Enter<StartMenuState>();
         }

@@ -1,7 +1,6 @@
-using Infrastructure.Services;
 using UnityEngine;
 
-namespace Utils
+namespace Infrastructure.Services
 {
     public interface IShaderPropsService : IService
     {

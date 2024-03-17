@@ -1,5 +1,6 @@
 ﻿using Infrastructure.AssetManagement;
 using Infrastructure.Factory;
+using Infrastructure.Services;
 using Infrastructure.State;
 using Infrastructure.StaticData;
 using UnityEngine;
@@ -12,6 +13,7 @@ namespace Infrastructure.DI
     {
         [SerializeField]public CameraPathFollower cameraPathFollower;
         [SerializeField]public Transform cameraStartPosition;
+        [SerializeField]public Light lightToChange;
         
         public override void InstallBindings()
         {
@@ -29,6 +31,9 @@ namespace Infrastructure.DI
             Container.BindInterfacesAndSelfTo<LevelFactory>().AsSingle().NonLazy();
             Container.BindInterfacesAndSelfTo<StaticDataService>().AsSingle().NonLazy();
             Container.BindInterfacesAndSelfTo<ShaderPropsService>().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<ChangeableLight>().AsSingle().NonLazy();
+            var changeableLight = Container.Resolve<ChangeableLight>();
+            changeableLight.SetLightToChange(lightToChange);
         }
         
         private void BindStates()
@@ -36,6 +41,7 @@ namespace Infrastructure.DI
             Container.Bind<StartMenuState>().FromNew().AsSingle();
             Container.Bind<CarPartsState>().FromNew().AsSingle();
             Container.Bind<PickColorState>().FromNew().AsSingle();
+            Container.Bind<LightSettingsState>().FromNew().AsSingle();
         }
 
         private void CreateCameraPathFollower()

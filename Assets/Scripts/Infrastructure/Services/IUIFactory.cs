@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UI;
 
-namespace Infrastructure.Factory
+namespace Infrastructure.Services
 {
     public interface IUIFactory
     {

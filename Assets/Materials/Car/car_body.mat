@@ -255,10 +255,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Base: {r: 0, g: 1, b: 0.96078444, a: 1}
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 0, b: 0.5572715, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Blend: {r: 1, g: 0, b: 0.9215689, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 0, b: 0.5572714, a: 1}
     - _Color1: {r: 0.5188679, g: 0.19286221, b: 0.7529412, a: 1}
     - _Color2: {r: 0.18777141, g: 0.99607843, b: 0.6666667, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
@@ -267,7 +267,7 @@ Material:
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _First: {r: 0.7841501, g: 0, b: 1, a: 1}
-    - _GradientColor: {r: 0.14056057, g: 0, b: 1, a: 1}
+    - _GradientColor: {r: 0.14056048, g: 0, b: 1, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _Second: {r: 0, g: 1, b: 0.7813556, a: 1}
