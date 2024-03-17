@@ -10,15 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Infrastructure
+  m_Name: StaticData
   m_EditorClassIdentifier: 
-  m_GroupName: Infrastructure
+  m_GroupName: StaticData
   m_Data:
     m_SerializedData: []
-  m_GUID: e5b91d4e888dbca418ba48ca32753f98
+  m_GUID: d8ede6332e1ea214b9f6ae9c1eefe5c2
   m_SerializeEntries:
-  - m_GUID: fc5a871002597a14d93f58395971f0fa
-    m_Address: CameraPathFollower
+  - m_GUID: 5eb4739548b8a4d4e942b19fbc975c9c
+    m_Address: CarColorParams
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dfe09ad391336c4984807d060876796
+    m_Address: ShaderPropParams
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -26,5 +31,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 1a6dd4da853fb794292ef26bac230201, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 8217d1d992d56b34caf628e6ceb94122, type: 2}
-    - {fileID: 11400000, guid: b58c4f2f0f8cb914a9ff3055a4bdc324, type: 2}
+    - {fileID: 11400000, guid: ca8b22c4a30b5ba429362f587dd40288, type: 2}
+    - {fileID: 11400000, guid: a6592ea81b02b3d4ca10c5c306622720, type: 2}

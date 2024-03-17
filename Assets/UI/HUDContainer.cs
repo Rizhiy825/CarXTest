@@ -9,11 +9,21 @@ namespace UI
     {
         [Header("Auto Parts")] 
         [SerializeField] private CarPartsContainer carPartsContainer;
-        [SerializeField] private FlexibleColorPicker colorPicker;
+        [SerializeField] private FlexibleColorPicker mainColorPicker;
+        [SerializeField] private FlexibleColorPicker secondColorPicker;
+        [SerializeField] private Slider secondColorIntensity;
         [SerializeField] private Button backButton;
+        [SerializeField] private Toggle chameleonToggle;
+        [SerializeField] private Toggle metallicToggle;
+        [SerializeField] private Button enterButton;
         
         public CarPartsContainer CarPartsContainer => carPartsContainer;
-        public FlexibleColorPicker ColorPicker => colorPicker;
+        public FlexibleColorPicker MainColorPicker => mainColorPicker;
+        public FlexibleColorPicker SecondColorPicker => secondColorPicker;
+        public Slider SecondColorIntensity => secondColorIntensity;
         public Button BackButton => backButton;
+        public Toggle ChameleonToggle => chameleonToggle;
+        public Toggle MetallicToggle => metallicToggle;
+        public Button EnterButton => enterButton;
     }
 }

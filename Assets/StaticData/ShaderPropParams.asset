@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 315a796c85a8436faa103aa6cb53885a, type: 3}
+  m_Name: ShaderPropParams
+  m_EditorClassIdentifier: 
+  Names:
+    _serializedList:
+    - Key: {fileID: -6465566751694194690, guid: ebd447125fa2c5a428fffa2504cf9829,
+        type: 3}
+      Value:
+        mainColorPropName: _BaseColor
+        secondColorPropName: _GradientColor
+        metallicPropName: _Metallic
+        smoothnessPropName: _Smoothness
+        secondColorIntensityPropName: _GradientIntensity
+        isChameleon: 1
+    - Key: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+      Value:
+        mainColorPropName: _BaseColor
+        secondColorPropName: 
+        metallicPropName: _Metallic
+        smoothnessPropName: _Smoothness
+        secondColorIntensityPropName: 
+        isChameleon: 0

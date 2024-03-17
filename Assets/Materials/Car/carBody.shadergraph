@@ -17,9 +17,6 @@
         },
         {
             "m_Id": "74a03d57f8434f2d89cf4ec71193a30e"
-        },
-        {
-            "m_Id": "8359f21b6b9e4e6fa539f062770a1899"
         }
     ],
     "m_Keywords": [],
@@ -885,9 +882,6 @@
         },
         {
             "m_Id": "74a03d57f8434f2d89cf4ec71193a30e"
-        },
-        {
-            "m_Id": "8359f21b6b9e4e6fa539f062770a1899"
         }
     ]
 }
@@ -1552,29 +1546,6 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
-    "m_ObjectId": "8359f21b6b9e4e6fa539f062770a1899",
-    "m_Guid": {
-        "m_GuidSerialized": "1031d9c0-0bce-47d8-93fe-b771db565407"
-    },
-    "m_Name": "ViewNormals",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "ViewNormals",
-    "m_DefaultReferenceName": "_ViewNormals",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": false
 }
 
 {

@@ -116,15 +116,19 @@ MonoBehaviour:
   - partName: Body
     viewPoint: {fileID: 4195666467552172338}
     material: {fileID: 2100000, guid: 15a29e68e456a0443b1b48d55db03ef0, type: 2}
+    canBeMetallic: 1
   - partName: Glass
     viewPoint: {fileID: 5054241476486622759}
     material: {fileID: 2100000, guid: 7f7f9674219470a4eb0463d6e6edf094, type: 2}
+    canBeMetallic: 0
   - partName: Back lights
     viewPoint: {fileID: 4502383122592623096}
     material: {fileID: 2100000, guid: d82f998f136d78b43bd1ab7baf516943, type: 2}
+    canBeMetallic: 1
   - partName: Wheels
     viewPoint: {fileID: 6493780930773828727}
     material: {fileID: 2100000, guid: 763d2721b8844b741b5d38ae3f0bbd94, type: 2}
+    canBeMetallic: 1
 --- !u!1 &2702915889028766153
 GameObject:
   m_ObjectHideFlags: 0

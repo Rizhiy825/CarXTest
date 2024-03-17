@@ -5,13 +5,13 @@ namespace UI
 {
     public class CarPartsContainer : MonoBehaviour
     {
-        private List<CarPartElement> elements = new();
+        public List<CarPartElement> Elements { get; } = new();
         
         public void Init(List<CarPartElement> carParts)
         {
             foreach (var carElement in carParts)
             {
-                elements.Add(carElement);
+                Elements.Add(carElement);
                 carElement.transform.SetParent(transform);
             }
         }

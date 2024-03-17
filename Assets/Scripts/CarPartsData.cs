@@ -13,4 +13,5 @@ public class CarPartData
     public string partName;
     public Transform viewPoint;
     public Material material;
+    public bool canBeMetallic;
 }
