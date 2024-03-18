@@ -2,7 +2,7 @@
 
 namespace Infrastructure.Services
 {
-    public interface IStaticDataService : IService
+    public interface IStaticDataService
     {
         CarColorParams GetCarColorParams();
         ShadersPropNames GetShaderPropNames();

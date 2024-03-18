@@ -2,7 +2,7 @@
 
 namespace Infrastructure.Services
 {
-    public interface IChangeableLight : IService
+    public interface IChangeableLight
     {
         public void SetLightToChange(Light light);
         public Light GetLightToChange();

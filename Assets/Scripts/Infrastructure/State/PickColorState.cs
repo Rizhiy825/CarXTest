@@ -1,12 +1,10 @@
 using System;
 using Infrastructure.AssetManagement;
-using Infrastructure.Factory;
 using Infrastructure.Services;
 using Infrastructure.StaticData;
 using UI;
 using UnityEngine;
 using UnityEngine.UI;
-using Utils;
 
 namespace Infrastructure.State
 {

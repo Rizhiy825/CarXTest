@@ -1,9 +1,8 @@
-﻿using Infrastructure.Services;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Infrastructure.AssetManagement
 {
-    public interface ICameraPathFollower : IService
+    public interface ICameraPathFollower
     {
         public void FollowToPoint(Transform point);
         public void FollowToStart();

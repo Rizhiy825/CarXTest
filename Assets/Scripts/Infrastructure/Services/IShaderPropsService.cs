@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Infrastructure.Services
 {
-    public interface IShaderPropsService : IService
+    public interface IShaderPropsService
     {
         string GetColorPropName(Shader shader, ColorType colorType);
         string GetMetallicPropName(Shader shader);
