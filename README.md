@@ -1,8 +1,9 @@
 # Car garage scene
+This project is to create the foundation for a garage in a racing game where players can view, customize, and test their cars. 
 
-Данная работа заключается в создании основы для гаража в гоночной игре, где игроки могут просматривать, кастомизировать и тестировать свои автомобили
+## Main results
+Within the framework of the project, work was carried out to develop the basis for a garage in a racing game. The tasks of integrating content, creating custom shaders, configuring HDRP, and developing a tool for editing car colors in real time were completed. 
 
-## Основные результаты
-В рамках проекта была проведена работа по разработке основы для гаража в гоночной игре. Были выполнены задачи по интеграции контента, созданию собственных шейдеров, настройке HDRP и разработке инструмента для редактирования цвета автомобилей в реальном времени.
+The results demonstrate the possibilities of creating high-quality visualization and interactivity in a gaming environment. The integration of our own shaders and HDRP settings allowed us to achieve a high level of realism and cinematography of the image. 
 
-Результаты работы демонстрируют возможности создания качественной визуализации и интерактивности в игровой среде. Интеграция собственных шейдеров и настройка HDRP позволили достичь высокого уровня реализма и кинематографичности изображения. Созданный инструмент для редактирования цвета автомобилей добавляет интерактивный элемент кастомизации, что улучшает игровой опыт для пользователей.
+The created car color editing tool adds an interactive customization element, which improves the gaming experience for users.
